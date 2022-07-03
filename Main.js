@@ -1,4 +1,4 @@
-/*AIzaSyDE0yJyoQ5kSbOD3H9XGYB2NNBAXc9vPvs*/
+
 const options = {
   enableHighAccuracy: true,
   timeout:5000,
@@ -11,7 +11,7 @@ function success (pos){
   let link = "https://maps.googleapis.com/maps/api/geocode/json?latlng="; 
   let latitude = crd.latitude;
   let longitude = crd.longitude;
-  let googleKey= "&key=AIzaSyDE0yJyoQ5kSbOD3H9XGYB2NNBAXc9vPvs";
+  let googleKey= "&key=Your GoogleKey";
   let completeLink= link +latitude+","+longitude+googleKey 
 
  console.log(completeLink)
